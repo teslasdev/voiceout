@@ -1,0 +1,40 @@
+.ng-sponsors {
+    height: 251px;
+    background: #EFF3E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ng-dkwOs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ng-iekae h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #123E1E;
+}
+
+.ng-skwrj {
+    display: flex;
+    gap: 15px;
+}
+
+.ng-sponsors-box {
+    width: 68px;
+    height: 68px;
+    background: #73BE01;
+    border-radius: 50%;
+}
+
+@media (max-width:450px) {
+    .ng-sponsors-box {
+        width: 44px;
+        height: 44px;
+    }
+}

@@ -1,0 +1,126 @@
+.ng-asrfes {
+    height: 570px;
+    background: #EFF3E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ng-asrfes h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #123E1E;
+}
+.ng-kajea {
+    display: flex;
+    width: 954px;
+    margin-top: 3rem;
+}
+
+.ng-testimonial-img {
+    width: 305px;
+    height: 338px;
+}
+
+.ng-testimonial-text {
+    width: 649px;
+    background: #123E1E;
+    height: 292px;
+    padding: 3rem;
+    color: white;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+}
+.ng-testimonial-text h4 {
+    font-size: 20px;
+    line-height: 24.5px;
+    font-weight: 600;
+}
+.ng-testimonial-text p {
+    width: 438px;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.ng-testimonial-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.ng-arrows {
+    background: #73BE01;
+    width: 82px;
+    height: 38px;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 500;
+
+}
+.ng-arrows-icon {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ng-arrows-icon:hover {
+    background: #385d0195;
+}
+.ng-backward {
+    flex: 0 0 50%;
+   
+}
+
+
+.ng-forward {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .ng-asrfes {
+        height: 649px;
+    }
+    .ng-kajea {
+        width: 100%;
+    }
+    .ng-testimonial-img {
+        width: 417px;
+        height: 504px;
+        object-fit: cover;
+        border-radius: 0 100px 100px 0;
+        position: absolute;
+        z-index: 4;
+    }
+
+    .ng-testimonial-img img{
+        border-radius: 0 100px 100px 0;
+    }
+
+    .ng-testimonial-text {
+        width: 100%;
+        background: #123E1E;
+        height: 504px;
+        z-index: 5;
+        opacity: .8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .ng-testimonial-img {
+        width: 100%;
+    }
+    .ng-testimonial-text p {
+        width: 280px;
+        text-align: center;
+    }
+}

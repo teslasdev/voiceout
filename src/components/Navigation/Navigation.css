@@ -1,0 +1,13 @@
+.ng-amknaB {
+    display: flex;
+    width: 371px;
+    height: 18px;
+    gap: var(--nav-gap);
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: var(--line-height);
+}
+
+.ng-link {
+    color: var(--white);
+}

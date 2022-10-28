@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+}
+.ng-djakn {
+    padding: 0 10rem;
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 1.1rem;
+}
+
+.ng-ajsdjs {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.ng-csknfo {
+    width: 8rem;
+    height: 8rem;
+}
+
+@media (max-width: 1200px ) {
+    .ng-djakn {
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .ng-djakn {
+        padding: 0 1rem;
+    }
+   
+}

@@ -1,0 +1,177 @@
+.ng-edjsj {
+    background-color: var(--white);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ng-edjsj h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #123E1E;
+}
+
+.ng-compaigns-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1114px;
+    height: 458px;
+    margin-top: 3rem;
+}
+
+
+
+.ng-tag-box {
+    width: 350px;
+    height: 458px;
+}
+
+
+.ng-tag-img {
+    height: 280px;
+    width: 350px;
+    
+}
+
+.ng-tag-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ng-tag-text {
+    margin: 1rem 0;
+}
+.ng-tag-text h2{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #123E1E;
+    width: 241px;
+}
+
+.ng-tag-text p {
+    font-size: 500px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 300px;
+    color: #303030;
+}
+
+
+@media (max-width: 900px ) {
+    .ng-edjsj {
+        height: 614px;
+    }
+    .ng-compaigns-box {
+        width: 100%;
+        gap: 7px;
+    }
+    .ng-tag-box {
+        width: 228px;
+        height: 422px;
+    }
+    .ng-tag-img {
+        height: 157px;
+        width: 228px;
+    }
+    .ng-tag-text h2 {
+        font-size: 13px;
+        width: 217px;
+    }
+    .ng-tag-text p {
+        width: 200px;
+    }
+    .ng-blog-img {
+        height: 189px !important;
+    }
+
+    .ng-label {
+        Width: 35px;
+        Height: 43.38px;
+        align-items: center;
+    }
+    .ng-label h4 {
+        font-size: 15px;
+    }
+    .ng-label h5 {
+        font-size: 8px;
+    }
+}
+@media (max-width: 700px) {
+    .ng-edjsj {
+        height: 967px;
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+    .ng-compaigns-box {
+        flex-wrap: wrap;
+        gap: 20px;
+       
+    }
+    .ng-tag-img {
+        height: 183px;
+        width: 280px;
+    }
+    .ng-tag-box {
+        width: 280px;
+        height: 422px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ng-edjsj {
+        height: 614px;
+    }
+    .ng-compaigns-box {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        width: 85%;
+        justify-content: flex-start;
+        gap: 32px;
+        overflow-y: hidden;
+        height: 100%;
+    }
+    .ng-tag-box {
+        width: 390px;
+        height: 100%;
+    }
+    .ng-tag-img {
+        height: 244px;
+        width: 390px;
+    }
+    .ng-tag-text h2 {
+        font-size: 20px;
+        width: 419px;
+    }
+    .ng-tag-text p {
+        width: 372px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ng-tag-img {
+        height: 244px;
+        width: 308px;
+    }
+    .ng-tag-img {
+        height: 244px;
+        width: 308px;
+    }
+    .ng-tag-text h2 {
+        font-size: 20px;
+        width: 308px;
+    }
+    .ng-tag-text p {
+        width: 300px;
+        font-size: 13px;
+    }
+}
+

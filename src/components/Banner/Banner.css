@@ -1,0 +1,155 @@
+.ng-llaad {
+    height: 1025px;
+    background-image: url('../images/HomepageBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.ng-jskaA {
+    background: rgba(60, 42, 175, 0.66);
+    opacity: 0.5;
+    height: 1025px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.ng-ajnfsk {
+    background: rgba(0, 0, 0,0.27);
+    height: 1025px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.ng-text {
+    position: absolute;
+    width: 764px;
+    height: 297px;
+    left: 162px;
+    top: 260px;
+    color: var(--white);
+    z-index: 4000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ng-mqsdm {
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 6.1rem;
+}
+
+.ng-lfhw {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.8rem;/* or 140% */
+    color: #F0F0F0;
+}
+
+.ng-agvas {
+    position: absolute;
+    left: 162px;
+    top: 596px;
+}
+
+.ng-lkfm {
+    position: absolute;
+    width:250px;
+    left: 162px;
+    top: 879px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.ng-lkfm p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    color: #fff;
+}
+
+.ng-gsjr {
+    width: 6.4rem;
+    height: 1.5px;
+    background-color: var(--white);
+}
+
+@media (max-width: 900px ) {
+    * {
+        transition: all .3s;
+    }
+    .ng-text {
+        width: 90%;
+        height: 297px;
+        left: 30px;
+        top: 225px;
+        transition: all .5s;
+    }
+
+    .ng-lfhw {
+        width: 90%;
+    }
+
+    .ng-agvas {
+        left: 30px;
+        top: 577px;
+    }
+    .ng-lkfm {
+        width: 250px;
+        left: 35px;
+    }
+}
+
+@media (max-width: 700px) {
+    .ng-mqsdm {
+        font-weight: 800;
+        font-size: 4.5rem;
+    }
+    .ng-text, .ng-agvas , .ng-lkfm {
+        left: 58px;
+    }
+
+    .ng-agvas {
+        top: 635px;
+    }
+   
+}
+
+@media (max-width: 500px) {
+    .ng-text {
+        left: 18px;
+        top: 139px;
+    }
+    .ng-agvas {
+        top: 718px;
+        left: 18px;
+    }
+    .ng-lkfm {
+        left: 18px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ng-mqsdm {
+        font-weight: 800;
+        font-size: 3.7rem;
+        line-height: 5.1rem;
+    }
+    .ng-lfhw {
+        width: 100%;
+    }
+    .ng-agvas {
+        top: 679px;
+    }
+}
+
+

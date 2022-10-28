@@ -1,0 +1,131 @@
+.ng-sufns {
+    width: 100%;
+    height: 286px;
+    background: #123E1E;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   justify-content: space-around;
+}
+
+.ng-wika {
+    width: 85%;
+    height: 170px;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ng-eywq {
+    width: 85%;
+    height: 30px;
+}
+
+.ng-vkfd h3 {
+    font-size: 20px;
+    color: #73BE01;
+    font-weight: 600;
+    line-height: 24px;
+}
+.ng-link-address {
+    width: 245px;
+    margin-left: 2rem;
+}
+.ng-link-address span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+
+    color: var(--white);
+}
+
+.ng-link-address span p {
+    color: var(--white);
+    font-size: 15px;
+    padding-left: 2rem;
+    font-weight: 500;
+}
+
+.ng-link-footer .ng-link{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    font-size: 15px;
+}
+
+.ng-sksdk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ng-fhahj {
+    width:250px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    position:static !important;
+}
+
+
+.ng-fhahj p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    color: #fff;
+}
+
+.ng-gsjr {
+    width: 6.4rem;
+    height: 1.5px;
+    background-color: var(--white);
+}
+
+
+.ng-logo-footer {
+    width: 100px;
+}
+
+.ng-eywq h5 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--white);
+}
+
+@media (max-width:900px) {
+    .ng-sufns {
+        height: 100%;
+    }
+    .ng-wika {
+        flex-wrap: wrap;
+        width: 90%;
+        height: 437px;
+    }
+    .ng-bjhk {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+    .ng-eywq {
+        width: 90%;
+        height: 48px;
+    }
+}
+
+@media (max-width:450px) {
+    .ng-link-address {
+        width: 269px;
+    }
+    .ng-sksdk {
+        align-items: flex-start;
+    }
+    .ng-wika {
+        flex-wrap: wrap;
+        width: 90%;
+        height: 623px;
+    }
+
+}

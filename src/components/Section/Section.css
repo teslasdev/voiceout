@@ -1,0 +1,217 @@
+.ng-section {
+    height: 1099px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 10rem;
+}
+
+.ng-about {
+  height: 1009px;
+  width: 100%;
+
+}
+
+.ng-mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height:340px;
+}
+
+.ng-ajfh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ng-aagb {
+    font-size: 1.5rem;
+    color: var(--green-light);
+    line-height: 1.867rem;
+    font-weight: 400;
+}
+
+.ng-aheiol {
+    font-size: 3rem;
+    line-height: 2.67rem;
+    color: var(--green-dark);
+}
+
+.ng-klaep {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    
+
+}
+.ng-box {
+    width: 205px;
+    height: 186px;
+    position: relative;
+}
+
+.ng-box h4 {
+    font-size: 1.5rem;
+    color: var(--green-dark);
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.ng-box p {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 40%;
+    bottom: 6.99%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.ng-mission-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 9rem 5rem;
+    
+}
+
+
+
+.ng-jsnjn {
+    width: 548px;
+    height: 521px;
+    background-image: url('../images/HomepageBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 200px 0px 200px 200px;
+    position: relative;
+    left: 7px;
+    top: -10px;
+    
+}
+
+.ng-akhvs {
+    position: absolute;
+    width: 548px;
+    height: 521px;
+    z-index: -3;
+    background-color: var(--green-light);
+    border-radius: 200px 0px 200px 200px;
+}
+
+
+
+.ng-kada {
+    width: 548px;
+}
+
+
+.ng-jakdn {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 4rem 0;
+}
+
+@media (max-width: 1200px ) {
+    .ng-section {
+        padding: 0 1rem;
+    }
+    .ng-mission-1 {
+        padding: 19rem 2rem;
+    }
+    .ng-jsnjn ,.ng-akhvs {
+        width: 388px;
+        height: 400px;
+        border-radius: 130px 0px 130px 130px;
+    }
+    .ng-klaep {
+        flex-wrap: wrap;
+        margin: 5rem 0;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 900px ) {
+    .ng-section {
+        height: 1512.22px;
+        align-items: flex-start;
+        margin-top: 3rem;
+    }
+    .ng-mission-1 {
+        flex-direction: column-reverse;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .ng-jsnjn, .ng-akhvs {
+        width: 495px;
+        height: 438px;
+        border-radius: 130px 0px 130px 130px;
+    }
+    .ng-jakdn {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 700px) {
+    .ng-section {
+        height: 1705.22px;
+    }
+    .ng-mission-1 {
+        padding: 38rem 2rem;
+    }
+    .ng-kada {
+        width: 488px;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    .ng-section {
+        height: 1780px;
+    }
+    
+    .ng-ajfh {
+        width: 70%;
+        text-align: center;
+    }
+    .ng-box {
+        width: 199px;
+    }
+    .ng-kada {
+        width: 408px;
+    }
+    .ng-jsnjn, .ng-akhvs {
+        width: 412px;
+        height: 392px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ng-section {
+        height: 2217px;
+    }
+    .ng-mission {
+        height: 776px;
+    }
+    .ng-aheiol {
+        font-size: 2.3rem;
+    }
+    .ng-jsnjn, .ng-akhvs {
+        width: 305px;
+        height: 302px;
+    }
+    .ng-kada {
+        width: 291px;
+        padding: 0rem;
+    }
+}
+

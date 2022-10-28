@@ -1,0 +1,60 @@
+.ng-blogs {
+    filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.ng-blog-text {
+    padding: 1.5rem;
+}
+
+.ng-blog-img {
+    height: 250px !important;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.ng-blog-img img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.ng-blog-text h3 {
+    color: #73BE01 !important;
+    font-size: 15px !important;
+}
+.ng-blog-text h4 {
+    margin-bottom: 1rem;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ng-label {
+    position: absolute;
+    left: 78.57%;
+    right: 8.57%;
+    top: 3.93%;
+    bottom: 82.89%;
+    Width:45px;
+    Height:60.38px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ng-label h4{
+    color: #73BE01;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.ng-label h5 {
+    color: #123E1E;
+    font-size: 10px;
+    line-height: 9px;
+}
