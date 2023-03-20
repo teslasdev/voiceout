@@ -11,8 +11,10 @@ import {
   Events,
   Blog,
   Contact,
-  Donation
+  Donation,
+  Team
 } from './Screen/'
+
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/our-team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donation" element={<Donation />} />
         </Routes>

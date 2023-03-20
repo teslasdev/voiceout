@@ -19,8 +19,8 @@ const Footer = () => {
               <h3>Contact</h3>
               <div className="ng-link-address">
                 <span><MdOutlineLocationOn size={28} color='#fff'/><p>Address  of the main office</p></span>
-                <span><BsFillTelephoneFill size={22} color='#fff'/><p>+234 813 2086 958</p></span>
-                <span><FaRegEnvelope size={22} color='#fff'/><p>info@voiceout.com</p></span>
+                <span><BsFillTelephoneFill size={22} color='#fff'/><p>+234 903 788 9174</p></span>
+                <span><FaRegEnvelope size={22} color='#fff'/><p>Voiceout53@gmail.com</p></span>
               </div>
             </div>
 

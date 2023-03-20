@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height:340px;
+    min-height:340px;
 }
 
 .ng-ajfh {
@@ -125,7 +125,7 @@
         padding: 0 1rem;
     }
     .ng-mission-1 {
-        padding: 19rem 2rem;
+        padding: 10em 2rem;
     }
     .ng-jsnjn ,.ng-akhvs {
         width: 388px;
@@ -141,7 +141,7 @@
 
 @media (max-width: 900px ) {
     .ng-section {
-        height: 1512.22px;
+        min-height: 1512.22px;
         align-items: flex-start;
         margin-top: 3rem;
     }
@@ -166,7 +166,7 @@
         height: 1705.22px;
     }
     .ng-mission-1 {
-        padding: 38rem 2rem;
+        padding: 2rem 2rem;
     }
     .ng-kada {
         width: 488px;
@@ -184,7 +184,8 @@
         text-align: center;
     }
     .ng-box {
-        width: 199px;
+        width: 132px;
+    height: 287px
     }
     .ng-kada {
         width: 408px;
@@ -200,7 +201,7 @@
         height: 2217px;
     }
     .ng-mission {
-        height: 776px;
+        min-height: 776px;
     }
     .ng-aheiol {
         font-size: 2.3rem;

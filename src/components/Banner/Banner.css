@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+
 }
 
 .ng-jskaA {
@@ -125,6 +126,9 @@
 }
 
 @media (max-width: 500px) {
+    .ng-llaad {
+        background-position: center;
+    }
     .ng-text {
         left: 18px;
         top: 139px;

@@ -1,0 +1,115 @@
+[
+    {
+        "name" : "AHEKOHIMBIA AZAMAIMI",
+        "image" : "assets/team1.jpeg",
+        "Occupation" : "Public Servant",
+        "Location" : "FCT",
+        "DateOfBirth" : "3rd May",
+        "Reason" : "To make the little input necessary for the world to go round"
+    },
+    {
+        "name" : "Akinrinmade Oluwadamilola",
+        "image" : "assets/team2.jpeg",
+        "Occupation" : "Legal practitioner",
+        "Location" : "ABUJA",
+        "DateOfBirth" : "13th October",
+        "Reason" : "To uphold justice and spread the peace of God."
+    },
+    {
+        "name" : "Eitokpah Sunday",
+        "image" : "assets/team3.jpeg",
+        "Occupation" : "Public Servant",
+        "Location" : "CALABAR",
+        "DateOfBirth" : "15TH OCTOBER",
+        "Reason" : "To spread the love of Christ "
+    },
+    {
+        "name" : "Ogunniran Anjolajesu Favour",
+        "image" : "assets/team4.jpeg",
+        "Occupation" : "Student",
+        "Location" : "ILE IFE",
+        "DateOfBirth" : "5th October",
+        "Reason" : "Strong volunteer for societal change."
+    },
+    {
+        "name" : "Oyewusi Oluwatimilehin",
+        "image" : "assets/team5.jpeg",
+        "Occupation" : "Student",
+        "Location" : "ILE IFE",
+        "DateOfBirth" : "6th October",
+        "Reason" : "To reach out to men about the love of God and to give hope to as many that needs it"
+    },
+    {
+        "name" : "AGBOZENABOR LUCKY",
+        "image" : "assets/team6.jpeg",
+        "Occupation" : "Police Officer",
+        "Location" : "ILE IFE",
+        "DateOfBirth" : "26th May",
+        "Reason" : "it's a good course"
+    },
+    {
+        "name" : "Akinlayo Delight",
+        "image" : "assets/team7.jpeg",
+        "Occupation" : "public service",
+        "Location" : "OSOGBO",
+        "Reason" : "Love❤️ for humanity and to extend the good news of Jesus christ to all."
+    },
+    {
+        "name" : "Sale Nafisatu",
+        "image" : "assets/team8.jpeg",
+        "Occupation" : "Public servant",
+        "Location" : "Abuja",
+        "Reason" : "To discourage GBV and help survivors know that in Christ what happened does not determine what their future and God’s plans for them"
+    },
+    {
+        "name" : "Solomon Faith",
+        "image" : "assets/team9.jpeg",
+        "Occupation" : "Undergraduate",
+        "Location" : "Kaduna State",
+        "Reason" : "It helps fulfill a part of my call and vision."
+    },
+    {
+        "name" : "Adepoju Oluwafunmilayo Elizabeth",
+        "image" : "assets/team10.jpeg",
+        "Occupation" : "Network and digital marketer",
+        "Location" : "ILE IFE",
+        "Reason" : "To restore hope to the hopeless through inspirations from God's love her has shown to me"
+    },
+    {
+        "name" : "Akinlayo Betty",
+        "image" : "assets/team11.jpeg",
+        "Occupation" : "Public Servant",
+        "Location" : "Ogun State",
+        "Reason" : "for the love of taking care of people"
+    },
+    {
+        "name" : "Ochai Grace",
+        "image" : "assets/team12.jpeg",
+        "Occupation" : "Public Servant",
+        "Location" : "Abuja",
+        "Reason" : "my love for humanity"
+    },
+    {
+        "name" : "Raphael wazindi Andrew",
+        "image" : "assets/team14.jpeg",
+        "Occupation" : "Public Servant",
+        "Location" : "maiduguri",
+        "Reason" : "Want to be part of what God is doing."
+    },
+    {
+        "name" : "Akinfolademi oluwakorede",
+        "image" : "assets/team13.jpeg",
+        "Occupation" : "Unknown",
+        "Location" : "Ondo State",
+        "Reason" : "To be a voice to the voiceless, to reach out to  to the lost ones, those that have given up due to one reason or the other and also to make christ known."
+    },
+    {
+        "name" : "Aina Oluwakemi Abigail",
+        "image" : "assets/team15.jpeg",
+        "Occupation" : "Police Officer",
+        "Location" : "Abuja",
+        "Reason" : "An opportunity to spread the love of Christ"
+    }
+    
+
+]
