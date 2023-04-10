@@ -20,11 +20,11 @@ const Home = () => {
       <Banner />
       <Section />
       <Involve />
-      <Campaigns />
+      {/* <Campaigns /> */}
       <Sponsors />
-      <Events />
+      {/* <Events /> */}
       <Testimonial />
-      <Blogs />
+      {/* <Blogs /> */}
       <Contact />
       <Footer />
     </div>

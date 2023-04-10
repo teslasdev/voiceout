@@ -59,7 +59,7 @@ const Section = () => {
                         </div>
 
                         <div className="ng-alajk">
-                            <p className='ng-jakdn'> Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Terapeutisk kloning vintage och prebel däbelt. Du kan vara drabbad. Eurolålig legt mong sedan dekaktigt, oaktat senevis. Or uggling reaitet. Tetrabes preng men onat selfie otugisk. Monora ofobel beligt förutom nyligen. Hexaberen tonade. Berabel trer. Engen kast mobilzombie. Kvasidäheten härgjord test tunat. Refust. Otrehet dodäsk: i segas. Ontototal fona, att antitris: ett ganede. Mikros hypolekont det vill säga sere kronyrat. tm bel. Relerade dirat pror. Ad osa för att ting makross fast äbel.</p>
+                            <p className='ng-jakdn'> Our mission is to curb abuse in all forms through a partnership with the law enforcement agency, legal practitioners, medical practitioners as well as international organizations in other to ensure that survivors are not stigmatized by the members of the public but rather are helped to get justice at every level and also provide solutions to the immediate problems and needs of the survivors</p>
                         </div>
 
                         <div className="ng-laow">

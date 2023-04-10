@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
             <div className='ng-text'>
                 <h1 className='ng-mqsdm'>Envisioning a world of good health and eradication of gender based violence</h1>
-                <p className='ng-lfhw'>Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Terapeutisk kloning vintage och prebel däbelt. Du kan vara drabbad.</p>
+                <p className='ng-lfhw'>Voice out is a non-governmental that aims to combat all forms of gender-based violence and child abuse while producing support to survivors of such violence…</p>
             </div>
 
             <div className="ng-agvas">
