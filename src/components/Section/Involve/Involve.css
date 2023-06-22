@@ -18,7 +18,7 @@
 
 .ng-involve-box {
     width: 243px;
-    height: 175px;
+    min-height: 150px;
     background-color: var(--white);
     border-radius: 20px;
     filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.05));
@@ -45,15 +45,14 @@
 .ng-involve-title p {
     font-size: 30px;
     color: #123E1E;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 37px;
 
 }
 .ng-involve-box h5 {
     font-size: 15px;
-    line-height: 15px;
+    line-height: 18px;
     font-weight: 400;
-
 }
 
 .ng-involve-box p {
@@ -69,13 +68,30 @@
     }
     .ng-sjtw {
         flex-wrap: wrap;
-        width: 90%;
+        width: 100%;
+        gap: 10px;
+        padding: .5rem;
     }
 }
 
 @media (max-width: 600px) {
+    .ng-involve-box {
+        width: 45%;
+        padding: .5rem;
+        text-align: center;
+    }
+    .ng-involve-box h5 {
+        font-weight: 700;
+        margin-top: 3px;
+    }
+    .ng-involve-box p {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 18px;
+        margin-top: 0.4rem;
+    }
     .ng-section-involve {
-        height: 1084px;
+        height: 504px;
     }
     .ng-ajsns ,.ng-sjtw{
         display: flex;

@@ -36,11 +36,6 @@ const Section = () => {
                             <h4>Gender Based Violenece</h4>
                             <p>Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Dinde antide, metatet infrang</p>
                         </div>
-                        <div className="ng-box">
-                            <img src={vectoricon}/>
-                            <h4>Gender Based Violenece</h4>
-                            <p>Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Dinde antide, metatet infrang</p>
-                        </div>
                     </div>
                 </div>
 

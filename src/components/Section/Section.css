@@ -87,7 +87,7 @@
 .ng-jsnjn {
     width: 548px;
     height: 521px;
-    background-image: url('../images/HomepageBackground.png');
+    background-image: url('../images/mission-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 200px 0px 200px 200px;
@@ -125,7 +125,7 @@
         padding: 0 1rem;
     }
     .ng-mission-1 {
-        padding: 10em 2rem;
+        padding: 10em 1rem;
     }
     .ng-jsnjn ,.ng-akhvs {
         width: 388px;
@@ -166,7 +166,7 @@
         height: 1705.22px;
     }
     .ng-mission-1 {
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
     }
     .ng-kada {
         width: 488px;
@@ -183,9 +183,12 @@
         width: 70%;
         text-align: center;
     }
+    .ng-klaep {
+        margin: 4px 0;
+    }
     .ng-box {
-        width: 132px;
-    height: 287px
+        width: 45%;
+        min-height: 260px
     }
     .ng-kada {
         width: 408px;
@@ -198,20 +201,20 @@
 
 @media (max-width: 450px) {
     .ng-section {
-        height: 2217px;
+        height: 1576px;
     }
     .ng-mission {
-        min-height: 776px;
+        min-height: 657px;
     }
     .ng-aheiol {
         font-size: 2.3rem;
     }
     .ng-jsnjn, .ng-akhvs {
-        width: 305px;
-        height: 302px;
+        width: 330px;
+        height: 328px;
     }
     .ng-kada {
-        width: 291px;
+        width: 100%;
         padding: 0rem;
     }
 }

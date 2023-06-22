@@ -17,20 +17,19 @@ const Banner = () => {
             <div className='ng-text'>
                 <h1 className='ng-mqsdm'>Envisioning a world of good health and eradication of gender based violence</h1>
                 <p className='ng-lfhw'>Voice out is a non-governmental that aims to combat all forms of gender-based violence and child abuse while producing support to survivors of such violence…</p>
-            </div>
-
-            <div className="ng-agvas">
-                <Button value="Raise Your Voice" class="ng-ajshb" link="contact"/>
-            </div>
-
-            <div className='ng-lkfm'>
+                <div className="ng-agvas">
+                    <Button value="Raise Your Voice" class="ng-ajshb" link="contact"/>
+                </div>
+                <div className='ng-lkfm'>
                 <p>Follow us</p>
                 <div className='ng-gsjr'>{" "}</div>
                 {/* Icons */}
                     <a href='' ><AiFillInstagram size={24}/></a>
                     <a href=''><FaTwitterSquare size={21} /></a>
                     <a href=''><ImFacebook2 size={18}/></a>
+                </div>
             </div>
+
         </div>
     </div>
   )

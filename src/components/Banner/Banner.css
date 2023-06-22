@@ -1,6 +1,6 @@
 .ng-llaad {
     height: 1025px;
-    background-image: url('../images/HomepageBackground.png');
+    background-image: url('../images/voice\ \ out-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -8,7 +8,7 @@
 }
 
 .ng-jskaA {
-    background: rgba(60, 42, 175, 0.66);
+    background: rgba(60, 42, 175, 0.86);
     opacity: 0.5;
     height: 1025px;
     width: 100%;
@@ -53,17 +53,9 @@
     color: #F0F0F0;
 }
 
-.ng-agvas {
-    position: absolute;
-    left: 162px;
-    top: 596px;
-}
+
 
 .ng-lkfm {
-    position: absolute;
-    width:250px;
-    left: 162px;
-    top: 879px;
     color: var(--white);
     display: flex;
     align-items: center;
@@ -143,16 +135,23 @@
 }
 
 @media (max-width: 450px) {
+    .ng-jskaA , .ng-llaad , .ng-ajnfsk {
+        height: 600px;
+    }
     .ng-mqsdm {
-        font-weight: 800;
-        font-size: 3.7rem;
-        line-height: 5.1rem;
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 3.6rem;
     }
     .ng-lfhw {
         width: 100%;
+        font-size: 1.5rem;
     }
     .ng-agvas {
         top: 679px;
+    }
+    .ng-text {
+        gap: 20px;
     }
 }
 
