@@ -9,10 +9,10 @@
 }
 
 .ng-blog-img {
+    width: 100%;
     height: 250px !important;
     border-radius: 20px;
     position: relative;
-    
 }
 
 .ng-blog-img img{

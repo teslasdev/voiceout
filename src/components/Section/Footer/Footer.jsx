@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../images/logo.png'
 import {MdOutlineLocationOn} from 'react-icons/md'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {FaRegEnvelope} from 'react-icons/fa'
@@ -44,7 +43,7 @@ const Footer = () => {
                       <a href='#'><ImFacebook2 size={18}/></a>
               </div>
               <div className="ng-csknfo">
-                <img src={logo} className="ng-logo ng-logo-footer" alt='logo' />
+                <img src="/images/logo.png" className="ng-logo ng-logo-footer" alt='logo' />
               </div>
             </div>
           </div>

@@ -87,7 +87,7 @@
 .ng-jsnjn {
     width: 548px;
     height: 521px;
-    background-image: url('../images/mission-img.jpg');
+    background-image: url('/public/images/mission-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 200px 0px 200px 200px;

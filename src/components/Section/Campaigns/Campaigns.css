@@ -64,6 +64,9 @@
     color: #303030;
 }
 
+.ng-compaigns-box::-webkit-scrollbar {
+    height: 0;
+}
 
 @media (max-width: 900px ) {
     .ng-edjsj {
@@ -108,7 +111,6 @@
     .ng-edjsj {
         height: 967px;
         justify-content: flex-start;
-        margin-top: 3rem;
     }
     .ng-compaigns-box {
         flex-wrap: wrap;
@@ -127,14 +129,15 @@
 
 @media (max-width: 600px) {
     .ng-edjsj {
-        height: 614px;
+        height: 497px;
+        margin-left: 3rem;
     }
     .ng-compaigns-box {
         flex-wrap: nowrap;
         overflow-x: scroll;
-        width: 85%;
+        width: 100%;
         justify-content: flex-start;
-        gap: 32px;
+        gap: 35px;
         overflow-y: hidden;
         height: 100%;
     }
@@ -154,16 +157,15 @@
         width: 372px;
         font-size: 13px;
     }
+    .ng-blogs {
+        background-color: transparent;
+    }
 }
 
 @media (max-width: 450px) {
     .ng-tag-img {
         height: 244px;
-        width: 308px;
-    }
-    .ng-tag-img {
-        height: 244px;
-        width: 308px;
+        width: 100%;
     }
     .ng-tag-text h2 {
         font-size: 20px;

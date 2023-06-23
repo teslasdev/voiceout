@@ -1,7 +1,6 @@
 import React ,{useState,useEffect} from 'react'
 import Button from '../Button'
 import Navigation from '../Navigation/Navigation'
-import logo from '../images/logo.png'
 import './Header.css'
 import {useMediaQuery} from 'react-responsive'
 import {FaBars} from 'react-icons/fa'
@@ -43,7 +42,7 @@ const Header = (props) => {
     <div className='header'>
         <div className={`ng-djakn ${props.type === 'sticky' ? 'ng-rtwww' : '' } ${ scrollDirection === "down" ? "ng-rtwww" : ""}`}>
           <div className="ng-csknfo">
-            <img src={logo} className="ng-logo" alt='logo' />
+            <img src="images/logo.png" className="ng-logo" alt='logo' />
           </div>
           {!isPortrait ? 
           <div className="ng-ajsdjs">

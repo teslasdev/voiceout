@@ -1,12 +1,11 @@
 import React from 'react'
 import './Campaigns.css';
-import img from '../../images/HomepageBackground.png'
 import Button from '../../Button';
 
 const Campaigns = () => {
   return (
     <div>
-        <div className="ng-campaigns">
+        {/* <div className="ng-campaigns">
             <div className="ng-edjsj">
                 <h3>Active Campaigns</h3>
                 <div className="ng-compaigns-box">
@@ -46,7 +45,7 @@ const Campaigns = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

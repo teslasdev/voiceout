@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import Button from '../../Button';
-import img from '../../images/HomepageBackground.png'
+
 
 const Contact = () => {
   return (
@@ -28,7 +28,7 @@ const Contact = () => {
           </div>
 
           <div className="ng-contact-img">
-            <img src={img} alt="" srcset="" />
+            <img src="/images/HomepageBackground.png" alt="" srcset="" />
           </div>
         </div>
       </div>

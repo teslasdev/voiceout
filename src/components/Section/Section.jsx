@@ -1,7 +1,5 @@
 import React from 'react'
 import './Section.css'
-import vectoricon from '../../components/images/Vector.svg'
-import missionImage from '../../components/images/Vector.svg'
 import Button from '../Button'
 
 const Section = () => {
@@ -17,22 +15,22 @@ const Section = () => {
 
                     <div className="ng-klaep">
                         <div className="ng-box">
-                            <img src={vectoricon}/>
+                            <img src="images/Vector.svg"/>
                             <h4>Gender Based Violenece</h4>
                             <p>Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Dinde antide, metatet infrang</p>
                         </div>
                         <div className="ng-box">
-                            <img src={vectoricon}/>
+                            <img src="images/Vector.svg"/>
                             <h4>Gender Based Violenece</h4>
                             <p>Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Dinde antide, metatet infrang</p>
                         </div>
                         <div className="ng-box">
-                            <img src={vectoricon}/>
+                            <img src="images/Vector.svg"/>
                             <h4>Gender Based Violenece</h4>
                             <p>Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Dinde antide, metatet infrang</p>
                         </div>
                         <div className="ng-box">
-                            <img src={vectoricon}/>
+                            <img src="images/Vector.svg"/>
                             <h4>Gender Based Violenece</h4>
                             <p>Lörem ipsum nyrän. Oska. Tull pivull i vutit hexarer. Trengen svenskad. Dotregon ös. Dinde antide, metatet infrang</p>
                         </div>

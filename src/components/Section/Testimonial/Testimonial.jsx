@@ -1,6 +1,6 @@
 import React from 'react'
 import './Testimonial.css'
-import img from '../../images/voice  out-2-2.jpg'
+
 
 const Testimonial = () => {
   return (
@@ -10,7 +10,7 @@ const Testimonial = () => {
                 <h3>Testimonial</h3>
                 <div className="ng-kajea">
                     <div className="ng-testimonial-img">
-                        <img src={img} alt="" srcset="" style={{objectFit:"cover"}} />
+                        <img src="/images/voice  out-2-2.jpg" alt="" srcset="" style={{objectFit:"cover"}} />
                     </div>
                     <div className="ng-testimonial-text">
                         <h4>Heritage Orphan</h4>
